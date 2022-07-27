@@ -311,15 +311,6 @@ nav #nav_links {
   color: grey;
 }
 
-#Jason_Bayton {
-  font-family: 'Parisienne', cursive;
-  font-weight: 300;
-  font-size: 90px;
-  padding-top: 5px;
-  color: var(--text);
-  text-align: center;
-}
-
 content {
   padding: 30px 40px 0;
   max-width: 1200px;
@@ -327,6 +318,15 @@ content {
   display: block;
   color: var(--text);
   overflow-wrap: break-word;
+}
+
+#Jason_Bayton {
+  font-family: 'Parisienne', cursive;
+  font-weight: 300;
+  font-size: 90px;
+  padding-top: 5px;
+  color: var(--text);
+  text-align: center;
 }
 
 #intro_heading {
