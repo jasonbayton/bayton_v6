@@ -257,7 +257,7 @@ button.button-rounded {
   display: inline-block;
   padding-top: 10px;
   height: 49px;
-  border: 2px solid var(--text);
+  border-bottom: 2px solid var(--text);
   width: 100%;
 }
 
@@ -325,6 +325,10 @@ content {
   display: block;
   color: var(--text);
   overflow-wrap: break-word;
+}
+
+#intro_heading {
+  font-size: 60px;
 }
 
 section#page_container {
