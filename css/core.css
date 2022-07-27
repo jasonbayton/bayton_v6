@@ -255,17 +255,8 @@ button.button-rounded {
 
 nav {
   display: inline-block;
-  padding-top: 20px;
-  grid-area: 1 / 2 / 2 / 3;
-  justify-self: end;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  justify-items: end;
-  align-items: start;
-  grid-template-rows: min-content;
+  height: 30px;
+  border-bottom: 2px var(--text)
 }
 
 nav #nav_links {
