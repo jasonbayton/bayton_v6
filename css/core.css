@@ -343,9 +343,18 @@ content {
 #intro_block {
   display: grid;
   grid-template-columns: 3fr 1fr;
-
 }
+
+#intro_heading {
+  grid-area: 1/1/2/3;
+}
+
+#intro_text {
+  grid-area: 2/1/2/3;
+}
+
 #intro_android {
+  grid-area: 2/2/3/3;
   text-align: center;
   font-size: 24px;
   border-left: 2px solid var(--text);
