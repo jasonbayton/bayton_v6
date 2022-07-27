@@ -322,6 +322,8 @@ nav #nav_links {
 
 content {
   padding: 30px 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
   display: block;
   color: var(--text);
   overflow-wrap: break-word;
