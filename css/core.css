@@ -253,10 +253,12 @@ button.button-rounded {
   text-indent: 10px;
 }
 
-nav {
+#navbar {
   display: inline-block;
-  height: 30px;
-  border-bottom: 2px var(--text)
+  padding-top: 10px;
+  height: 49px;
+  border: 2px solid var(--text);
+  width: 100%;
 }
 
 nav #nav_links {
