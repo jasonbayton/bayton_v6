@@ -247,10 +247,9 @@ button.button-rounded {
 #bayton_text {
   font-family: 'Parisienne', cursive;
   font-weight: 300;
-  letter-spacing: 10px;
-  font-size: 50px;
+  font-size: 20px;
   padding-top: 5px;
-  color: var(--bright);
+  color: var(--text);
   text-indent: 10px;
 }
 
