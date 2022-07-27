@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- To be moved to a dedicated file -->
+    <meta charset = "utf-8">
+    <title>Jason Bayton | Page Title</title>
+    <meta name = "description" content = "The website of Jason Bayton">
+    <meta name = "author" content = "Jason Bayton ">
+    <meta name="twitter:site" content="@jasonbayton" />
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Jason Bayton | Page Title"/>
+    <meta property="og:description" content="Page Subtitle"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://bayton.org"/>
+    <meta property="og:image" content="/img/bayton.webp"/>
+    <script src="/js/darkmode.js"></script>
+    <link rel = "stylesheet" href = "/css/core.css">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link rel = "stylesheet" href = "/css/webfonts.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <!-- -- -->
+</head>
+<body>
+  <header>
+    <!-- To be moved to a dedicated file -->
+    <nav>
+        <div id="navbar">
+            <div id="bayton-logo">
+                <!--img src="/img/bayton-logo.svg" /-->
+                <div id="bayton_text">
+                    Jason Bayton
+                </div>
+            </div>
+            <div id="nav_links">
+                <div class="nav-link-individual">
+                    <a href="/about">About</a>
+                </div>
+                <div class="nav-link-individual">
+                    <a href="/contact">Contact</a>
+                </div>
+                <div class="nav-link-individual">
+                    <a href="/android">Documentation</a>
+                </div>
+            </div>
+            <div id="searchform" class="mobile-hidden">
+                <span class="fa fa-search" id="search_icon"></span>
+                <input type="text" name="search" id="searchinput" placeholder="Search..">
+            </div>
+            <div id="darktoggle">
+              <i class="fas fa-clouds-moon"></i>
+            </div>
+        </div>
+    </nav>
+    <div id="banner_statement">
+        <div class="banner-statement-individual">
+            Android Enterprise Expert
+        </div>
+        <div class="banner-statement-individual">
+            Enterprise Mobility Advocate
+        </div>
+        <div class="banner-statement-individual">
+            Product Leader
+        </div>
+    </div>
+    <div id="Jason_Bayton">
+        Jason Bayton
+    </div>
+  </header>
+  <content>
+    {% include "./__eleventy-tc/content.njk" %}
+  </content>
+  <footer>
+    {% include "./__eleventy-tc/footer.njk" %}
+    {% include "./__eleventy-tc/analytics.njk" %}
+  </footer>
+</body>
+</html>
