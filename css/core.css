@@ -317,6 +317,7 @@ nav #nav_links {
   font-size: 90px;
   padding-top: 5px;
   color: var(--text);
+  text-align: center;
 }
 
 content {
