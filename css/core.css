@@ -345,6 +345,11 @@ content {
   grid-template-columns: 3fr 1fr;
 
 }
+#intro_android {
+  text-align: center;
+  font-size: 24px;
+  border-left: 2px solid var(--text);
+}
 
 #android_head {
   width: 140px;
