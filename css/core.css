@@ -322,7 +322,7 @@ content {
 
 #banner_statement {
   display: grid;
-  grid-column: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
 }
 
@@ -338,6 +338,16 @@ content {
   color: var(--text);
   text-align: center;
   padding: 40px 0 60px;
+}
+
+#intro_block {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
+}
+
+#android_head {
+  width: 140px;
 }
 
 #intro_heading {
