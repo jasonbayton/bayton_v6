@@ -24,54 +24,105 @@
     <!-- -- -->
 </head>
 <body>
-  <header>
+    <header>
     <!-- To be moved to a dedicated file -->
-    <nav>
-        <div id="navbar">
-            <div id="bayton_logo">
+        <nav>
+            <div id="navbar">
+                <div id="bayton_logo">
                 <!--img src="/img/bayton-logo.svg" /-->
-                <div id="bayton_text">
+                    <div id="bayton_text">
                     Jason Bayton
+                    </div>
+                </div>
+                <div id="nav_links">
+                    <div class="nav-link-individual">
+                        <a href="/about">About</a>
+                    </div>
+                    <div class="nav-link-individual">
+                        <a href="/contact">Contact</a>
+                    </div>
+                    <div class="nav-link-individual">
+                        <a href="/android">Documentation</a>
+                    </div>
+                </div>
+                <div id="searchform" class="mobile-hidden">
+                    <span class="fa fa-search" id="search_icon"></span>
+                    <input type="text" name="search" id="searchinput" placeholder="Search..">
+                </div>
+                <div id="darktoggle">
+                <i class="fas fa-clouds-moon"></i>
                 </div>
             </div>
-            <div id="nav_links">
-                <div class="nav-link-individual">
-                    <a href="/about">About</a>
-                </div>
-                <div class="nav-link-individual">
-                    <a href="/contact">Contact</a>
-                </div>
-                <div class="nav-link-individual">
-                    <a href="/android">Documentation</a>
-                </div>
+        </nav>
+        <div id="banner_statement">
+            <div class="banner-statement-individual">
+                Android Enterprise Expert
             </div>
-            <div id="searchform" class="mobile-hidden">
-                <span class="fa fa-search" id="search_icon"></span>
-                <input type="text" name="search" id="searchinput" placeholder="Search..">
+            <div class="banner-statement-individual">
+                Enterprise Mobility Advocate
             </div>
-            <div id="darktoggle">
-              <i class="fas fa-clouds-moon"></i>
+            <div class="banner-statement-individual">
+                Product Leader
             </div>
         </div>
-    </nav>
-    <div id="banner_statement">
-        <div class="banner-statement-individual">
-            Android Enterprise Expert
+        <div id="Jason_Bayton">
+            Jason Bayton
         </div>
-        <div class="banner-statement-individual">
-            Enterprise Mobility Advocate
+    </header>
+    <content>
+        <section id="intro_block" class="home-section">
+            <div id="intro_heading">
+                👋 Hello!
+            </div>
+            <div id="intro_text">
+                <p>I’ve dedicated over twelve years to Android, half of those catered towards Android’s use in 
+                enterprise. Today I’m considered a leading voice in Android Enterprise across the globe, and 
+                have attained several accolades including an award from Google for contributions to the 
+                Android community, Gold Product Expert status in the Android Enterprise Help Community, 
+                vExpert status from VMware for Android contributions, and more.</p>
+
+                <p>Android has been a passion of mine for many years, from picking up the original G1 through 
+                the years of modding and ROM customisations, to today building and deploying hundreds of 
+                thousands of managed Android devices around the globe. Everything I learn I write about here, 
+                and I hope my resources help you and your organisation to better understand and support 
+                Android in the enterprise, also.</p>
+            </div>
+            <div id="intro_android">
+                <img id="android_head" />
+                <p>Master Android in your enterprise with simple, easy to understand documentation</p>
+                <a id="android_doc_link" href="/android">📖 Read the docs</a>
+            </div>
         </div>
-        <div class="banner-statement-individual">
-            Product Leader
-        </div>
-    </div>
-    <div id="Jason_Bayton">
-        Jason Bayton
-    </div>
-  </header>
-  <content>
-    {% include "./__eleventy-tc/content.njk" %}
-  </content>
+        <section id="trusted_logos" class="home-section">
+            <div class="purple-background">
+                <div id="trusted_container">
+                    <div id="trusted_textgroup">
+                        <h2 id="trusted_title">
+                            I make relevant, up-to-date Android content for 200K visitors annually
+                        </h2>
+                        <div id="trusted_tag">
+                            Some of the vendors and organisations I've assisted or collaborated with include:
+                        </div>
+                    </div>
+                    <div id="vendor_logo_container">
+                        <div class="vendor-logo">
+                            <img alt="" src="/img/logos/android.webp"/>
+                            <img alt="" src="/img/logos/hmd.png"/>
+                            <img alt="" src="/img/logos/citrix.png"/>
+                            <img alt="" src="/img/logos/sam.png"/>
+                            <img alt="" src="/img/logos/sony.png"/>
+                            <img alt="" src="/img/logos/ms.png"/>
+                            <img alt="" src="/img/logos/hg.png"/>
+                            <img alt="" src="/img/logos/se.png"/>
+                        </div>
+                    </div>
+                    <div id="vendor_disclaimer">
+                        Have we worked together? Support me by <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOn4HrczzhJgdJQwb27Nt2IWIIZvuNlDmAz0DGKhcxO1t9wQ/viewform?usp=sf_link">adding your logo</a>!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </content>
   <footer>
     {% include "./__eleventy-tc/footer.njk" %}
     {% include "./__eleventy-tc/analytics.njk" %}
