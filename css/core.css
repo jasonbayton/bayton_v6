@@ -320,6 +320,16 @@ content {
   overflow-wrap: break-word;
 }
 
+#banner_statement {
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.banner-statement-individual {
+  text-align: center;
+}
+
 #Jason_Bayton {
   font-family: 'Parisienne', cursive;
   font-weight: 300;
