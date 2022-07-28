@@ -6,4 +6,5 @@ section#paginate {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    padding: 40px 0;
 }
