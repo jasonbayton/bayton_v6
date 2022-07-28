@@ -1,4 +1,11 @@
 content#doc {
     display: grid;
-    grid-template-columns: 1fr 10fr;
+    grid-template-columns: 4fr 10fr;
+    padding-top: 40px;
+}
+
+.aside-title h2 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 28px;
 }
