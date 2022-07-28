@@ -648,6 +648,10 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
     border: none;
   }
 
+  #intro_android {
+    padding-top: 20px;
+  }
+
   #dpc_extras {
     grid-template-columns: 1fr;
   }
