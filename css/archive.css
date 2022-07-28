@@ -1,3 +1,7 @@
+content#archive {
+    padding-top: 60px;
+}
+
 section#pagination {
     display: grid;
     grid-template-columns: 1fr 1fr;
