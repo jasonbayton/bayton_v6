@@ -35,4 +35,8 @@ section#feedback {
     #content_doc{
         grid-template-columns: 1fr;
     }
+
+    section#feedback {
+        grid-area: unset;
+    }
 }
