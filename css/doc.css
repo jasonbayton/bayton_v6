@@ -1,6 +1,6 @@
 content#doc {
     display: grid;
-    grid-template-columns: 4fr 10fr;
+    grid-template-columns: 1fr 4fr;
     padding-top: 40px;
 }
 
@@ -12,4 +12,9 @@ content#doc {
 
 .section-title {
     margin-top: 0;
+}
+
+section#feedback {
+    grid-area: 2/1/2/4;
+    justify-self: end;
 }
