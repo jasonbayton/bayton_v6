@@ -254,11 +254,12 @@ button.button-rounded {
 }
 
 #navbar {
-  display: inline-block;
+  display: grid;
   padding-top: 10px;
-  height: 49px;
   border-bottom: 2px solid var(--text);
   width: 100%;
+  grid-template-columns: 1fr 5fr 2fr 1fr;
+  color: var(--text);
 }
 
 nav #nav_links {
