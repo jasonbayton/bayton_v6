@@ -347,6 +347,7 @@ content {
 
 #intro_heading {
   grid-area: 1/1/2/3;
+  font-weight: 600;
 }
 
 #intro_text {
