@@ -255,7 +255,7 @@ button.button-rounded {
 
 #navbar {
   display: grid;
-  padding-top: 10px;
+  padding: 10px 0;
   border-bottom: 2px solid var(--text);
   width: 100%;
   grid-template-columns: 1fr 5fr 2fr 1fr;
@@ -300,8 +300,8 @@ nav #nav_links {
 #searchform input {
   background: none;
   border: none;
-  font-size: 21px;
-  padding: 5px;
+  font-size: 16px;
+  padding: 0 5px;
   color: grey;
 }
 
