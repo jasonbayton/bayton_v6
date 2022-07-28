@@ -413,15 +413,11 @@ button#back_button, button#next_button {
 
 section#trusted_logos {
   padding: 20px 0 0;
-  color: var(--bright);
-  margin-top: 150px;
 }
 
 section#trusted_logos #trusted_container {
-  text-align: center;
   max-width: 1620px;
   margin: 0 auto;
-  padding: 40px 0 120px;
 }
 
 #trusted_textgroup {
