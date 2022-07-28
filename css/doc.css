@@ -39,4 +39,9 @@ section#feedback {
     section#feedback {
         grid-area: 2/1/2/2;
     }
+
+    .meta-single {
+        padding-right: 10px;
+        font-size: 14px;
+    }
 }
