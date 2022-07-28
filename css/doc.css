@@ -2,6 +2,7 @@ content#doc {
     display: grid;
     grid-template-columns: 1fr 4fr;
     padding-top: 40px;
+    grid-gap: 30px;
 }
 
 #aside {
