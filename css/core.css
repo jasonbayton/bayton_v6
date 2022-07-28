@@ -381,6 +381,24 @@ content {
   padding: 100px 0
 }
 
+.post-block {
+  padding: 30px 0;
+}
+
+.post-title {
+  margin-bottom: 0;
+}
+
+.post-meta {
+  padding: 10px 0;
+  display: block;
+}
+
+.meta-single {
+  padding-right: 40px;
+  display: inline;
+}
+
 #android_post_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
