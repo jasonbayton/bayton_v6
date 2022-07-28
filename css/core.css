@@ -265,12 +265,10 @@ nav #nav_links {
   padding-top: 20px;
   padding-bottom: 10px;
   font-size: 16px;
-  color: var(--bright);
 }
 
 #nav_links a {
   text-decoration: none;
-  color: var(--bright);
   transition: none;
   padding-left: 20px;
   border-bottom: none;
@@ -298,7 +296,6 @@ nav #nav_links {
   background: none;
   border: none;
   font-size: 21px;
-  width: 351px;
   padding: 5px;
   color: grey;
 }
