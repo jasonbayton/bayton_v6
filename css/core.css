@@ -110,7 +110,6 @@ h5 { font-size: 20px; }
 
 :is(article :is(h1, h2, h3, h4, h5, h6)) a:hover::after {
   display: inherit;
-  color: var(--dat-purple);
   transition: all 0.2s ease;
 }
 
@@ -125,7 +124,6 @@ blockquote {
 
 blockquote::before{
   content: "\201C";
-  color: var(--contrast);
   font-size:4em;
   position: absolute;
   left: 10px;
@@ -209,39 +207,6 @@ button {
   box-shadow: #00000016 0px 3px 8px;
   transition: all 0.2s ease;
   border: 0;
-}
-
-button.button-blue {
-  background: var(--primary);
-  color: var(--bright);
-}
-
-button.button-blue a {
-  color: var(--bright);
-}
-
-button a {
-  border: none;
-}
-
-button a:hover, footer a:hover {
-  all: unset;
-  cursor: pointer;
-}
-
-button.button-rounded {
-  border-radius: 17px;
-}
-
-#header_container {
-  padding: 0 20px;
-  font-size: 22px;
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: auto;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
 }
 
 #bayton_text {
@@ -564,11 +529,11 @@ footer {
   font-weight: 300;
 }
 
-.callout-primary { background-color: var(--primary); color: var(--bright); }
-.callout-success { background-color: var(--contrast-secondary); color: var(--bright); }
-.callout-danger { background-color: var(--contrast-tertiary); color: var(--bright); }
-.callout-warning { background-color: var(--contrast); color: var(--bright); }
-.callout-info { background-color: var(--accent); color: var(--bright); }
+.callout-primary { background-color: var(--dark); color: var(--bright); }
+.callout-success { background-color: var(--dark); color: var(--bright); }
+.callout-danger { background-color: var(--dark); color: var(--bright); }
+.callout-warning { background-color: var(--dark); color: var(--bright); }
+.callout-info { background-color: var(--dark); color: var(--bright); }
 .callout-dark { background-color: var(--dark); color: var(--bright); }
 
 /*Tocbot*/
