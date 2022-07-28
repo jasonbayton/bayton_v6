@@ -16,6 +16,9 @@ content#doc {
 
 .section-title {
     margin-top: 0;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 0;
 }
 
 #aside_docs {
