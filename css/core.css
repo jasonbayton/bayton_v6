@@ -520,7 +520,21 @@ h2#trusted_title {
 footer {
   background-color: var(--light);
   padding: 30px 0 0;
-  color: var(--bright);
+  text-align: center;
+}
+
+#social_icons {
+  font-size: 90px;
+  display: inline;
+}
+
+.footer-images {
+  display: inline;
+}
+
+.footer-images img {
+  max-height: 90px;
+  display: inline;
 }
 
 #made_with_container {
