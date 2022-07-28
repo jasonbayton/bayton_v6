@@ -387,6 +387,7 @@ content {
 
 .post-title {
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 .post-meta {
@@ -432,13 +433,10 @@ section#trusted_logos #trusted_container {
   margin: 0 auto;
 }
 
-h2#trusted_title {
-  margin-bottom: 0;
-}
-
-#trusted_tag {
+.section-title {
   font-size: 18px;
   padding-top: 10px;
+  font-weight: 500;
 }
 
 #vendor_logo_container {
