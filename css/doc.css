@@ -32,11 +32,11 @@ section#feedback {
 }
 
 @media (max-width: 900px) {
-    #content_doc{
+    content#doc{
         grid-template-columns: 1fr;
     }
 
     section#feedback {
-        grid-area: unset;
+        grid-area: 2/1/2/2;
     }
 }
