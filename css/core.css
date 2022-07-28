@@ -625,17 +625,17 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 
 @media (max-width: 900px) {
 
-  #bayton {
-    justify-self: center;
-    background: none;
-    box-shadow: none;
-    width: 100%
+  .mobile-hidden {
+    display: none;
   }
 
   #darktoggle {
     justify-self: center;
-    padding-top: 20px;
     cursor: pointer;
+  }
+
+  #intro_block {
+    grid-template-columns: 1fr;
   }
 
   #dpc_extras {
