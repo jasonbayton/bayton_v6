@@ -30,3 +30,9 @@ section#feedback {
     grid-area: 2/1/2/4;
     justify-self: end;
 }
+
+@media (max-width: 900px) {
+    #content_doc{
+        grid-template-columns: 1fr;
+    }
+}
