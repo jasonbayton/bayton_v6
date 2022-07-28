@@ -644,6 +644,11 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
     grid-template-columns: 1fr;
   }
 
+  #intro_heading, #intro_text, #intro_android {
+    grid-area: auto;
+    border: none;
+  }
+
   #dpc_extras {
     grid-template-columns: 1fr;
   }
