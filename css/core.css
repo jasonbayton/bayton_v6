@@ -257,7 +257,6 @@ button.button-rounded {
   display: grid;
   padding: 10px 0;
   border-bottom: 2px solid var(--text);
-  width: 100%;
   grid-template-columns: 1fr 5fr 2fr 1fr;
   color: var(--text);
 }
