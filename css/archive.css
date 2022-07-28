@@ -2,7 +2,7 @@ content#archive {
     padding-top: 60px;
 }
 
-section#pagination {
+section#paginate {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
