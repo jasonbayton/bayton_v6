@@ -146,8 +146,7 @@ hr {
 }
 
 a:hover {
-  background-color: var(--dark);
-  color: var(--bright);
+  color: var(--text);
 }
 
 *:focus {
@@ -405,8 +404,6 @@ section#trusted_logos #trusted_container {
 
 #vendor_logo_container {
   padding: 10px 20px 0;
-  border-radius: 20px;
-  background-color: var(--bright);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
