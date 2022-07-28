@@ -630,9 +630,17 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   }
 
   #darktoggle {
-    justify-self: center;
+    justify-self: end;
     cursor: pointer;
+    
   }
+
+  #navbar {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10px;
+  }
+
+  #
 
   #intro_block {
     grid-template-columns: 1fr;
