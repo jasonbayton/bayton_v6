@@ -376,10 +376,9 @@ content {
   font-size: 50px;
 }
 
-section#page_container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding-bottom: 40px;
+
+.home-section {
+  padding: 100px 0
 }
 
 #android_post_container {
