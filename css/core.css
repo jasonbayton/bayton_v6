@@ -411,12 +411,7 @@ button#back_button, button#next_button {
   margin: 0 40px;
 }
 
-section#trusted_logos {
-  padding: 20px 0 0;
-}
-
 section#trusted_logos #trusted_container {
-  max-width: 1620px;
   margin: 0 auto;
 }
 
