@@ -263,9 +263,9 @@ button.button-rounded {
 }
 
 nav #nav_links {
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 7px;
   font-size: 16px;
+  justify-self: center;
 }
 
 #nav_links a {
@@ -273,6 +273,7 @@ nav #nav_links {
   transition: none;
   padding-left: 20px;
   border-bottom: none;
+  display: inline;
 }
 
 #nav_links a:hover {
