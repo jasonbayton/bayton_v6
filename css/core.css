@@ -263,7 +263,7 @@ button.button-rounded {
 }
 
 nav #nav_links {
-  padding-top: 7px;
+  padding-top: 10px;
   font-size: 16px;
   justify-self: center;
 }
@@ -273,7 +273,6 @@ nav #nav_links {
   transition: none;
   padding-left: 20px;
   border-bottom: none;
-  display: inline;
 }
 
 #nav_links a:hover {
@@ -285,6 +284,10 @@ nav #nav_links {
     margin-right: 0;
     border-radius: 0;
     color: inherit;
+}
+
+#nav_links_individual {
+  display: inline;
 }
 
 #searchform {
